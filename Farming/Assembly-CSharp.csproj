@@ -55,9 +55,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\fredd\Documents\Freddox Unity\Farming\Farming\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll" />
-    <Analyzer Include="C:\Users\fredd\Documents\Freddox Unity\Farming\Farming\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\PlasticSCM\log4netPlastic.dll" />
-    <Analyzer Include="C:\Users\fredd\Documents\Freddox Unity\Farming\Farming\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -65,8 +62,8 @@
     <Compile Include="Assets\Upload\Scripts\Item\Inventory\Interfaces\IUseItem.cs" />
     <Compile Include="Assets\Upload\Scripts\Utility\UIHoverAction.cs" />
     <Compile Include="Assets\Upload\Scripts\Referencing\Scriptable Assets\ScriptableAssetDatabase.cs" />
-    <Compile Include="Assets\Upload\Scripts\Item\Actions\ItemAction_PlantSeed.cs" />
     <Compile Include="Assets\Upload\Scripts\World\Objects\Crop.cs" />
+    <Compile Include="Assets\Upload\Scripts\Item\Actions\ItemAction_PlantSeed.cs" />
     <Compile Include="Assets\Upload\Scripts\Item\Inventory\Interfaces\IInventoryLoaded.cs" />
     <Compile Include="Assets\Upload\Scripts\Combat\Effect\DamageEffect_HitFlash.cs" />
     <Compile Include="Assets\Upload\Scripts\Item\Actions\ItemAction_WaterCan.cs" />
@@ -84,8 +81,8 @@
     <Compile Include="Assets\Upload\Scripts\World\GridManager.cs" />
     <Compile Include="Assets\Upload\Scripts\Item\Inventory\Interfaces\IRecieveItemSlotIcon.cs" />
     <Compile Include="Assets\Upload\Scripts\Combat\Listeners\OnDamageListener.cs" />
-    <Compile Include="Assets\Upload\Plugins\Scriptable Object Updater\Tickers\AwakeTick.cs" />
     <Compile Include="Assets\Upload\Scripts\Saving\DisplayCharacterBodyMetaData.cs" />
+    <Compile Include="Assets\Upload\Plugins\Scriptable Object Updater\Tickers\AwakeTick.cs" />
     <Compile Include="Assets\Upload\Scripts\Entity Components\Character\BodySpriteSwapper.cs" />
     <Compile Include="Assets\Upload\Scripts\Time\TimePlayed.cs" />
     <Compile Include="Assets\Upload\Scripts\Action\Actions\ActionLoadGame.cs" />
@@ -127,9 +124,9 @@
     <Compile Include="Assets\Upload\Scripts\Item\ItemDropper.cs" />
     <Compile Include="Assets\Upload\Scripts\Action\Actions\ActionPauzeGame.cs" />
     <Compile Include="Assets\Upload\Scripts\System\SystemTicker.cs" />
+    <Compile Include="Assets\Upload\Scripts\Combat\Data\DamageVolumeConfiguration.cs" />
     <Compile Include="Assets\Upload\Scripts\Combat\Health.cs" />
     <Compile Include="Assets\Upload\Scripts\Main Menu\UISaveSlotDisplayer.cs" />
-    <Compile Include="Assets\Upload\Scripts\Combat\Data\DamageVolumeConfiguration.cs" />
     <Compile Include="Assets\Upload\Scripts\Event\Events\IntEvent.cs" />
     <Compile Include="Assets\Upload\Scripts\Referencing\Scriptable Variables\Variables\IntVariable.cs" />
     <Compile Include="Assets\Upload\Scripts\Saving\StoreCharacterBodyMetaData.cs" />
@@ -143,8 +140,8 @@
     <Compile Include="Assets\Upload\Scripts\Entity Components\Sprite\RandomizeSprite.cs" />
     <Compile Include="Assets\Upload\Scripts\Camera\PixelPerfectCamera.cs" />
     <Compile Include="Assets\Upload\Scripts\Weather\RainDrop.cs" />
-    <Compile Include="Assets\Upload\Scripts\Referencing\Scriptable Assets\ScriptableAsset.cs" />
     <Compile Include="Assets\Upload\Scripts\Utility\ScrollTexture.cs" />
+    <Compile Include="Assets\Upload\Scripts\Referencing\Scriptable Assets\ScriptableAsset.cs" />
     <Compile Include="Assets\Upload\Scripts\Item\ItemAction.cs" />
     <Compile Include="Assets\Upload\Scripts\Referencing\Scriptable Variables\ScriptableVariable.cs" />
     <Compile Include="Assets\Upload\Scripts\Entity Components\Character\BodyData.cs" />
@@ -170,8 +167,8 @@
     <Compile Include="Assets\Upload\Scripts\TileMap\SpawnTilemapPrefabs.cs" />
     <Compile Include="Assets\Upload\Scripts\Combat\Enemies\Enemy_WanderAttacker.cs" />
     <Compile Include="Assets\Upload\Scripts\Event\Listeners\WarpEventListener.cs" />
-    <Compile Include="Assets\Upload\Scripts\Referencing\Scriptable Variables\Variables\StringVariable.cs" />
     <Compile Include="Assets\Upload\Scripts\Utility\CanvasClickAction.cs" />
+    <Compile Include="Assets\Upload\Scripts\Referencing\Scriptable Variables\Variables\StringVariable.cs" />
     <Compile Include="Assets\Upload\Scripts\Item\ItemAdder.cs" />
     <Compile Include="Assets\Upload\Scripts\Utility\SpriteFader.cs" />
     <Compile Include="Assets\Upload\Scripts\Event\Events\InteractionEvent.cs" />
@@ -235,8 +232,8 @@
     <Compile Include="Assets\Upload\Scripts\System\Systems\InteractionSystem.cs" />
     <Compile Include="Assets\Upload\Scripts\Referencing\Scriptable Assets\IReferenceableAsset.cs" />
     <Compile Include="Assets\Upload\Scripts\Event\Unity Events\UnityEventGameObject.cs" />
-    <Compile Include="Assets\Upload\Scripts\Item\Inventory\Interfaces\ILoadItem.cs" />
     <Compile Include="Assets\Upload\Scripts\Combat\Interfaces\IHealable.cs" />
+    <Compile Include="Assets\Upload\Scripts\Item\Inventory\Interfaces\ILoadItem.cs" />
     <Compile Include="Assets\Upload\Scripts\World\WarpLocation.cs" />
     <Compile Include="Assets\Upload\Scripts\Action\Actions\ActionPlaySound.cs" />
     <Compile Include="Assets\Upload\Scripts\Item\LootableItem.cs" />
@@ -924,50 +921,23 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
@@ -984,11 +954,32 @@
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
@@ -998,6 +989,12 @@
     </Reference>
     <Reference Include="Cinemachine">
       <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
